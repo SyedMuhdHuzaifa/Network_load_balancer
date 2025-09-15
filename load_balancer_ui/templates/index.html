@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Balancer Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 15px;
+        }
+        .table thead {
+            background-color: #0d6efd;
+            color: white;
+        }
+        h1, h4, h5 {
+            color: #0d6efd;
+        }
+        select.form-select {
+            border-radius: 10px;
+        }
+        iframe {
+            background-color: white;
+            border-radius: 10px;
+        }
+        .carousel-control-prev,
+    .carousel-control-next {
+        top: 45%;
+        width: 5%;
+    }
+    .carousel-control-prev {
+        left: -100px;
+    }
+    .carousel-control-next {
+        right: -100px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #0d6efd;
+        border-radius: 50%;
+        background-size: 80% 80%;
+    }
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        background-color: #0a58ca;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: sans-serif;
+    }
+
+    .menu-label {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .menu button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .menu button:hover {
+      background-color: #0056b3;
+    }
+    </style>
+
+</head>
+
+<body class="container py-4">
+
+    <h1 class="mb-5 text-center">🌐 Load Balancer Dashboard</h1>
+    <h1>Load Balancer Dashboard</h1>
+    <div class="menu">
+        <span class="menu-label">Options:</span>
+        <button onclick="openCurrentBackend()">Current Backend</button>
+        <button onclick="openMonitoringUI()">Monitoring UI</button>
+      </div>
+    <div id="dashboardCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="false">
+        <div class="carousel-inner">
+
+            <div class="card shadow p-4 mb-5 bg-white rounded">
+                <h4 class="text-center mb-3">📨 Last Message Received</h4>
+                <h5 class="text-center text-success" id="lastMessage">..</h5>
+            </div>
+            <!-- Slide 1: Server Info -->
+            <div class="carousel-item active">
+                <div class="card shadow p-4 bg-white rounded">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h4>Choose Server:</h4>
+                            <select id="serverSelect" class="form-select" onchange="showServerDetails()">
+                                <option value="All" selected>All Servers</option>
+                                {% for name in statuses.keys() %}
+                                    <option value="{{ name }}">{{ name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <h5 class="text-center mb-4">
+                        🔄 Current Load Balancing Algorithm: 
+                        <span class="badge bg-primary">{{ algorithm }}</span>
+                    </h5>
+                    <form>
+                        <label class="form-label">Change Algorithm:</label>
+                        <select class="form-select" onchange="location.href=this.value;">
+                            <option selected disabled>-- Select Algorithm --</option>
+                            <option value="/set-algorithm/rr">Round Robin</option>
+                            <option value="/set-algorithm/lc">Least Connections</option>
+                            <option value="/set-algorithm/ip">IP Hashing</option>
+                        </select>
+                    </form>
+                    
+                    <!---<button onclick="fetchLastMessage()">Send Message</button> --->
+
+                    <h4 class="mb-3">Requests Served by Each Server</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle text-center">
+                            <thead>
+                                <tr>
+                                    <th>Server</th>
+                                    <th>Status</th>
+                                    <th>Requests Served</th>
+                                </tr>
+                            </thead>
+                            <tbody id="statusTable">
+                                {% for name, status in statuses.items() %}
+                                <tr data-server="{{ name }}">
+                                    <td class="fw-bold">{{ name }}</td>
+                                    <td><span id="{{ name }}" class="badge {{ 'bg-success' if 'Online' in status else 'bg-danger' }}">{{ status }}</span></td>
+                                    <td>{{ counter[name] if name in counter else 0 }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Graph -->
+            <div class="carousel-item">
+                <div class="card shadow p-4 bg-white rounded">
+                    <h4 class="mb-4 text-center">📊 Server Load Distribution</h4>
+                    <canvas id="requestChart" height="100"></canvas>
+                </div>
+            </div>
+
+            <!-- Slide 3: Recent Logs -->
+            <div class="carousel-item">
+                <div class="card shadow p-4 bg-white rounded">
+                    <h4 class="mb-3 text-center">🧾 Recent Logs</h4>
+                    <iframe src="/logs" style="width: 100%; height: 300px; border: 1px solid #ccc; background-color: #f8f9fa;"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dashboardCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dashboardCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- Optional: Carousel Indicators (dots) -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#dashboardCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#dashboardCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#dashboardCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+function refreshStatuses() {
+    // Update server online/offline status
+    fetch('/status')
+    .then(res => res.json())
+    .then(statuses => {
+        for (const [name, status] of Object.entries(statuses)) {
+            const badge = document.getElementById(name);
+            if (badge) {
+                badge.textContent = status;
+                badge.className = status.includes('Online') ? 'badge bg-success' : 'badge bg-danger';
+            }
+        }
+    });
+
+    // Update request count (same as chart data)
+    fetch('/counter')
+    .then(res => res.json())
+    .then(counter => {
+        for (const [name, count] of Object.entries(counter)) {
+            const cell = document.querySelector(`#statusTable tr[data-server="${name}"] td:nth-child(3)`);
+            if (cell) {
+                cell.textContent = count;
+            }
+        }
+    });
+}
+
+
+        let requestChart;
+        function updateChart(counter) {
+            const ctx = document.getElementById('requestChart').getContext('2d');
+            const labels = Object.keys(counter);
+            const data = Object.values(counter);
+
+            if (requestChart) {
+                requestChart.data.labels = labels;
+                requestChart.data.datasets[0].data = data;
+                requestChart.update();
+            } else {
+                requestChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Requests Served',
+                            data: data,
+                            backgroundColor: '#0d6efd'
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        function fetchChartData() {
+            fetch('/counter')
+            .then(res => res.json())
+            .then(counter => {
+                updateChart(counter);
+            });
+        }
+
+        function showServerDetails() {
+            const selectedServer = document.getElementById('serverSelect').value;
+            const rows = document.querySelectorAll('#statusTable tr');
+            rows.forEach(row => {
+                if (row.dataset.server === selectedServer || selectedServer === "All") {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+    
+
+
+}
+function fetchLastMessage() {
+    fetch('/last_response')
+    .then(res => res.json())
+    .then(data => {
+        const message = data.message;
+
+        // If response looks like HTML (starts with "<!DOCTYPE"), it's not valid
+        if (message.trim().startsWith("<!DOCTYPE") || message.includes("<html")) {
+            document.getElementById('lastMessage').textContent = "❌ No server is currently available.";
+        } else {
+            document.getElementById('lastMessage').textContent = message;
+        }
+    })
+    .catch(err => {
+        console.error("Fetch error:", err);
+        document.getElementById('lastMessage').textContent = "❌ Unable to fetch message.";
+    });
+}  
+function openCurrentBackend() {
+      window.open("/current-backend", "_blank");
+      // Use "_self" instead of "_blank" if you want to open in the same tab.
+    }
+
+    function openMonitoringUI() {
+      window.open("http://localhost:8404", "_blank");
+    }
+
+        setInterval(fetchChartData, 2000);
+        setInterval(refreshStatuses, 2000);
+        setInterval(fetchLastMessage, 1000);
+
+        window.onload = () => {
+            refreshStatuses();
+            fetchChartData();
+            fetchLastMessage();
+        };
+        
+
+    </script>
+
+</body>
+</html>

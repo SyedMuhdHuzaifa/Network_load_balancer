@@ -1,0 +1,853 @@
+<134>May  4 05:30:45 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:30:45 haproxy[3977]: Connect from 127.0.0.1:39990 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 05:30:49 haproxy[6254]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 05:30:50 haproxy[3977]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 05:30:50 haproxy[3977]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 05:30:50 haproxy[3977]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 05:30:50 haproxy[6254]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 05:30:50 haproxy[6254]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 05:30:51 haproxy[6254]: Connect from 127.0.0.1:44760 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:30:55 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:30:56 haproxy[6254]: Connect from 127.0.0.1:55400 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:01 haproxy[3977]: Connect from 127.0.0.1:55424 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:05 haproxy[6254]: Connect from 127.0.0.1:55430 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:06 haproxy[6254]: Connect from 127.0.0.1:55560 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:06 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:31:10 haproxy[6254]: Connect from 127.0.0.1:55570 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:11 haproxy[6254]: Connect from 127.0.0.1:55574 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:15 haproxy[3977]: Connect from 127.0.0.1:44634 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:16 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:31:20 haproxy[3977]: Connect from 127.0.0.1:44652 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:25 haproxy[6254]: Connect from 127.0.0.1:55196 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:27 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:31:30 haproxy[6254]: Connect from 127.0.0.1:55224 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:31 haproxy[3977]: Connect from 127.0.0.1:55232 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:36 haproxy[3977]: Connect from 127.0.0.1:54980 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:38 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:31:40 haproxy[3977]: Connect from 127.0.0.1:54992 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:41 haproxy[3977]: Connect from 127.0.0.1:55002 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:45 haproxy[3977]: Connect from 127.0.0.1:46162 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:46 haproxy[6254]: Connect from 127.0.0.1:46172 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:48 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:31:50 haproxy[6254]: Connect from 127.0.0.1:46180 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:56 haproxy[6254]: Connect from 127.0.0.1:50134 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:31:59 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:32:01 haproxy[3977]: Connect from 127.0.0.1:50162 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:06 haproxy[6254]: Connect from 127.0.0.1:42538 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:10 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:32:10 haproxy[3977]: Connect from 127.0.0.1:42544 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:15 haproxy[6254]: Connect from 127.0.0.1:44796 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:20 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:32:20 haproxy[6254]: Connect from 127.0.0.1:44824 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:21 haproxy[3977]: Connect from 127.0.0.1:44840 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:25 haproxy[3977]: Connect from 127.0.0.1:51496 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:30 haproxy[6254]: Connect from 127.0.0.1:51522 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:31 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:32:31 haproxy[3977]: Connect from 127.0.0.1:51524 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:35 haproxy[6254]: Connect from 127.0.0.1:40956 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:36 haproxy[3977]: Connect from 127.0.0.1:40966 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:40 haproxy[3977]: Connect from 127.0.0.1:40980 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:41 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:32:41 haproxy[3977]: Connect from 127.0.0.1:40982 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:46 haproxy[6254]: Connect from 127.0.0.1:47786 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:50 haproxy[3977]: Connect from 127.0.0.1:47796 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:51 haproxy[6254]: Connect from 127.0.0.1:47812 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:32:51 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:32:55 haproxy[6254]: Connect from 127.0.0.1:33888 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:00 haproxy[3977]: Connect from 127.0.0.1:33898 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:01 haproxy[6254]: Connect from 127.0.0.1:33912 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:02 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:33:05 haproxy[3977]: Connect from 127.0.0.1:41304 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:06 haproxy[6254]: Connect from 127.0.0.1:41320 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:13 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:33:21 haproxy[6254]: Connect from 127.0.0.1:45608 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:24 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:33:25 haproxy[3977]: Connect from 127.0.0.1:48730 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:31 haproxy[3977]: Connect from 127.0.0.1:48754 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:31 haproxy[6254]: Connect from 127.0.0.1:48760 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:35 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:33:36 haproxy[3977]: Connect from 127.0.0.1:35606 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:41 haproxy[3977]: Connect from 127.0.0.1:35616 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:45 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:33:46 haproxy[3977]: Connect from 127.0.0.1:53562 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:51 haproxy[6254]: Connect from 127.0.0.1:53584 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:51 haproxy[3977]: Connect from 127.0.0.1:53598 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:33:56 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:33:56 haproxy[6254]: Connect from 127.0.0.1:36206 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:01 haproxy[6254]: Connect from 127.0.0.1:36210 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:07 haproxy[6254]: Connect from 127.0.0.1:54780 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:07 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:34:11 haproxy[3977]: Connect from 127.0.0.1:54792 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:12 haproxy[3977]: Connect from 127.0.0.1:54806 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:16 haproxy[3977]: Connect from 127.0.0.1:41340 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:18 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:34:21 haproxy[6254]: Connect from 127.0.0.1:41360 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:22 haproxy[3977]: Connect from 127.0.0.1:41376 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:26 haproxy[6254]: Connect from 127.0.0.1:57398 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:27 haproxy[6254]: Connect from 127.0.0.1:57408 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:29 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:34:31 haproxy[3977]: Connect from 127.0.0.1:57418 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:32 haproxy[6254]: Connect from 127.0.0.1:57420 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:36 haproxy[6254]: Connect from 127.0.0.1:33010 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:37 haproxy[3977]: Connect from 127.0.0.1:33024 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:39 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:34:46 haproxy[3977]: Connect from 127.0.0.1:34378 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:47 haproxy[3977]: Connect from 127.0.0.1:34392 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:50 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:34:52 haproxy[3977]: Connect from 127.0.0.1:34404 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:56 haproxy[6254]: Connect from 127.0.0.1:39886 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:34:57 haproxy[6254]: Connect from 127.0.0.1:39898 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:01 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:35:01 haproxy[6254]: Connect from 127.0.0.1:39912 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:02 haproxy[3977]: Connect from 127.0.0.1:39922 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:07 haproxy[3977]: Connect from 127.0.0.1:50644 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:11 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:35:11 haproxy[3977]: Connect from 127.0.0.1:50648 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:16 haproxy[3977]: Connect from 127.0.0.1:55486 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:21 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:35:22 haproxy[3977]: Connect from 127.0.0.1:55518 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:27 haproxy[6254]: Connect from 127.0.0.1:60090 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:31 haproxy[6254]: Connect from 127.0.0.1:60100 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:32 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:35:32 haproxy[3977]: Connect from 127.0.0.1:60116 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:41 haproxy[3977]: Connect from 127.0.0.1:49846 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:42 haproxy[3977]: Connect from 127.0.0.1:49862 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:43 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:35:46 haproxy[3977]: Connect from 127.0.0.1:40070 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:47 haproxy[3977]: Connect from 127.0.0.1:40080 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:51 haproxy[6254]: Connect from 127.0.0.1:40096 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:52 haproxy[6254]: Connect from 127.0.0.1:40102 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:35:54 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:35:57 haproxy[3977]: Connect from 127.0.0.1:52126 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:01 haproxy[3977]: Connect from 127.0.0.1:52134 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:02 haproxy[3977]: Connect from 127.0.0.1:52150 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:05 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:36:06 haproxy[6254]: Connect from 127.0.0.1:60506 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:11 haproxy[3977]: Connect from 127.0.0.1:60518 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:12 haproxy[3977]: Connect from 127.0.0.1:60520 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:15 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:36:17 haproxy[6254]: Connect from 127.0.0.1:47666 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:21 haproxy[6254]: Connect from 127.0.0.1:47672 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:22 haproxy[3977]: Connect from 127.0.0.1:47680 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:26 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:36:31 haproxy[3977]: Connect from 127.0.0.1:47146 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:37 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:36:42 haproxy[3977]: Connect from 127.0.0.1:38794 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:42 haproxy[6254]: Connect from 127.0.0.1:38808 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:47 haproxy[3977]: Connect from 127.0.0.1:58984 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:47 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:36:52 haproxy[6254]: Connect from 127.0.0.1:59004 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:52 haproxy[6254]: Connect from 127.0.0.1:59010 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:57 haproxy[6254]: Connect from 127.0.0.1:40510 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:36:57 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:37:02 haproxy[3977]: Connect from 127.0.0.1:40524 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:02 haproxy[6254]: Connect from 127.0.0.1:40538 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:08 haproxy[6254]: Connect from 127.0.0.1:44790 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:08 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:37:17 haproxy[6254]: Connect from 127.0.0.1:34566 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:18 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:37:22 haproxy[3977]: Connect from 127.0.0.1:34576 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:27 haproxy[6254]: Connect from 127.0.0.1:59978 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:28 haproxy[3977]: Connect from 127.0.0.1:59990 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:29 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:37:32 haproxy[6254]: Connect from 127.0.0.1:60006 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:39 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:37:42 haproxy[3977]: Connect from 127.0.0.1:56710 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:43 haproxy[3977]: Connect from 127.0.0.1:56720 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:47 haproxy[3977]: Connect from 127.0.0.1:59528 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:48 haproxy[6254]: Connect from 127.0.0.1:59534 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:50 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:37:52 haproxy[6254]: Connect from 127.0.0.1:59550 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:53 haproxy[3977]: Connect from 127.0.0.1:59562 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:37:58 haproxy[3977]: Connect from 127.0.0.1:60288 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:01 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:38:03 haproxy[6254]: Connect from 127.0.0.1:60304 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:07 haproxy[6254]: Connect from 127.0.0.1:59684 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:11 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:38:12 haproxy[3977]: Connect from 127.0.0.1:59700 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:13 haproxy[6254]: Connect from 127.0.0.1:59716 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:17 haproxy[3977]: Connect from 127.0.0.1:48796 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:18 haproxy[6254]: Connect from 127.0.0.1:48806 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:21 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:38:22 haproxy[3977]: Connect from 127.0.0.1:48822 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:23 haproxy[6254]: Connect from 127.0.0.1:48836 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:28 haproxy[3977]: Connect from 127.0.0.1:47020 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:32 haproxy[6254]: Connect from 127.0.0.1:47026 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:33 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:38:33 haproxy[6254]: Connect from 127.0.0.1:47038 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:37 haproxy[6254]: Connect from 127.0.0.1:43866 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:42 haproxy[6254]: Connect from 127.0.0.1:43880 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:43 haproxy[3977]: Connect from 127.0.0.1:43892 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:44 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:38:47 haproxy[3977]: Connect from 127.0.0.1:45258 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:48 haproxy[3977]: Connect from 127.0.0.1:45262 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:54 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:38:57 haproxy[6254]: Connect from 127.0.0.1:42222 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:38:58 haproxy[3977]: Connect from 127.0.0.1:42224 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:02 haproxy[3977]: Connect from 127.0.0.1:42230 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:03 haproxy[3977]: Connect from 127.0.0.1:42234 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:05 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:39:08 haproxy[6254]: Connect from 127.0.0.1:34520 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:13 haproxy[6254]: Connect from 127.0.0.1:34522 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:13 haproxy[6254]: Connect from 127.0.0.1:34532 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:15 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:39:18 haproxy[3977]: Connect from 127.0.0.1:41048 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:18 haproxy[6254]: Connect from 127.0.0.1:41064 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:23 haproxy[6254]: Connect from 127.0.0.1:41072 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:25 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:39:36 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:39:38 haproxy[3977]: Connect from 127.0.0.1:49608 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:43 haproxy[6254]: Connect from 127.0.0.1:49616 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:47 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:39:48 haproxy[6254]: Connect from 127.0.0.1:60816 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:48 haproxy[3977]: Connect from 127.0.0.1:60820 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:53 haproxy[3977]: Connect from 127.0.0.1:60834 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:58 haproxy[6254]: Connect from 127.0.0.1:46866 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:58 haproxy[6254]: Connect from 127.0.0.1:46876 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:39:59 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:40:03 haproxy[3977]: Connect from 127.0.0.1:46880 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:08 haproxy[3977]: Connect from 127.0.0.1:47082 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:09 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:40:14 haproxy[6254]: Connect from 127.0.0.1:47110 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:18 haproxy[3977]: Connect from 127.0.0.1:60822 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:19 haproxy[3977]: Connect from 127.0.0.1:60834 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:19 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:40:24 haproxy[6254]: Connect from 127.0.0.1:60854 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:28 haproxy[6254]: Connect from 127.0.0.1:46274 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:29 haproxy[3977]: Connect from 127.0.0.1:46278 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:31 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:40:33 haproxy[6254]: Connect from 127.0.0.1:46292 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:34 haproxy[6254]: Connect from 127.0.0.1:46296 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:38 haproxy[3977]: Connect from 127.0.0.1:54188 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:39 haproxy[6254]: Connect from 127.0.0.1:54192 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:41 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:40:43 haproxy[3977]: Connect from 127.0.0.1:54208 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:44 haproxy[3977]: Connect from 127.0.0.1:54222 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:51 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:40:53 haproxy[3977]: Connect from 127.0.0.1:57422 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:54 haproxy[3977]: Connect from 127.0.0.1:57434 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:58 haproxy[3977]: Connect from 127.0.0.1:51156 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:40:59 haproxy[6254]: Connect from 127.0.0.1:51162 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:02 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:41:04 haproxy[6254]: Connect from 127.0.0.1:51190 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:08 haproxy[3977]: Connect from 127.0.0.1:34002 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:12 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:41:14 haproxy[6254]: Connect from 127.0.0.1:34038 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:19 haproxy[3977]: Connect from 127.0.0.1:57498 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:22 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:41:23 haproxy[3977]: Connect from 127.0.0.1:57506 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:24 haproxy[6254]: Connect from 127.0.0.1:57508 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:29 haproxy[6254]: Connect from 127.0.0.1:51876 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:33 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:41:33 haproxy[3977]: Connect from 127.0.0.1:51882 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:38 haproxy[6254]: Connect from 127.0.0.1:47582 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:44 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:41:48 haproxy[6254]: Connect from 127.0.0.1:51112 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:49 haproxy[6254]: Connect from 127.0.0.1:51122 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:54 haproxy[6254]: Connect from 127.0.0.1:51124 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:54 haproxy[6254]: Connect from 127.0.0.1:51128 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:41:55 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:41:59 haproxy[3977]: Connect from 127.0.0.1:48092 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:05 haproxy[3977]: Connect from 127.0.0.1:48104 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:06 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:42:09 haproxy[3977]: Connect from 127.0.0.1:54644 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:10 haproxy[3977]: Connect from 127.0.0.1:54648 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:14 haproxy[3977]: Connect from 127.0.0.1:54654 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:15 haproxy[3977]: Connect from 127.0.0.1:54664 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:16 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:42:20 haproxy[3977]: Connect from 127.0.0.1:54076 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:24 haproxy[6254]: Connect from 127.0.0.1:54088 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:25 haproxy[6254]: Connect from 127.0.0.1:54094 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:27 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:42:29 haproxy[6254]: Connect from 127.0.0.1:56540 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:30 haproxy[6254]: Connect from 127.0.0.1:56546 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:34 haproxy[6254]: Connect from 127.0.0.1:56562 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:35 haproxy[3977]: Connect from 127.0.0.1:56570 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:37 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:42:39 haproxy[6254]: Connect from 127.0.0.1:45558 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:40 haproxy[6254]: Connect from 127.0.0.1:45564 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:44 haproxy[6254]: Connect from 127.0.0.1:45578 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:48 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:42:49 haproxy[3977]: Connect from 127.0.0.1:38704 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:50 haproxy[6254]: Connect from 127.0.0.1:38708 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:42:59 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:43:00 haproxy[6254]: Connect from 127.0.0.1:33114 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:04 haproxy[6254]: Connect from 127.0.0.1:33120 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:05 haproxy[6254]: Connect from 127.0.0.1:36362 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:09 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:43:09 haproxy[6254]: Connect from 127.0.0.1:36368 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:10 haproxy[6254]: Connect from 127.0.0.1:36384 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:15 haproxy[3977]: Connect from 127.0.0.1:44624 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:20 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:43:20 haproxy[3977]: Connect from 127.0.0.1:44628 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:24 haproxy[6254]: Connect from 127.0.0.1:44632 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:25 haproxy[3977]: Connect from 127.0.0.1:42788 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:29 haproxy[6254]: Connect from 127.0.0.1:42796 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:30 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:43:30 haproxy[6254]: Connect from 127.0.0.1:42810 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:35 haproxy[6254]: Connect from 127.0.0.1:41354 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:39 haproxy[6254]: Connect from 127.0.0.1:41360 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:40 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:43:40 haproxy[3977]: Connect from 127.0.0.1:41362 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:49 haproxy[3977]: Connect from 127.0.0.1:46246 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:50 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:43:50 haproxy[3977]: Connect from 127.0.0.1:46252 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:43:54 haproxy[3977]: Connect from 127.0.0.1:46264 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:00 haproxy[3977]: Connect from 127.0.0.1:41038 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:01 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:44:09 haproxy[6254]: Connect from 127.0.0.1:45882 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:10 haproxy[6254]: Connect from 127.0.0.1:45894 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:11 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:44:14 haproxy[3977]: Connect from 127.0.0.1:45906 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:15 haproxy[3977]: Connect from 127.0.0.1:51056 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:19 haproxy[6254]: Connect from 127.0.0.1:51064 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:21 haproxy[3977]: Connect from 127.0.0.1:51072 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:21 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:44:24 haproxy[6254]: Connect from 127.0.0.1:51076 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:26 haproxy[3977]: Connect from 127.0.0.1:40550 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:29 haproxy[3977]: Connect from 127.0.0.1:40554 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:31 haproxy[6254]: Connect from 127.0.0.1:40558 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:32 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:44:34 haproxy[3977]: Connect from 127.0.0.1:40560 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:34 haproxy[6254]: Connect from 127.0.0.1:40574 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:35 haproxy[3977]: Connect from 127.0.0.1:40576 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:36 haproxy[6254]: Connect from 127.0.0.1:37594 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:40 haproxy[3977]: Connect from 127.0.0.1:37602 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:43 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:44:45 haproxy[3977]: Connect from 127.0.0.1:37624 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:46 haproxy[6254]: Connect from 127.0.0.1:33184 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:50 haproxy[6254]: Connect from 127.0.0.1:33188 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:44:54 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:45:01 haproxy[3977]: Connect from 127.0.0.1:41120 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:04 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:45:05 haproxy[6254]: Connect from 127.0.0.1:41136 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:06 haproxy[3977]: Connect from 127.0.0.1:50100 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:10 haproxy[6254]: Connect from 127.0.0.1:50104 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:11 haproxy[6254]: Connect from 127.0.0.1:50114 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:15 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:45:21 haproxy[3977]: Connect from 127.0.0.1:35316 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:25 haproxy[3977]: Connect from 127.0.0.1:37422 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:25 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:45:30 haproxy[3977]: Connect from 127.0.0.1:37428 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:31 haproxy[6254]: Connect from 127.0.0.1:37440 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:37 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:45:40 haproxy[3977]: Connect from 127.0.0.1:37572 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:41 haproxy[6254]: Connect from 127.0.0.1:37580 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:45 haproxy[3977]: Connect from 127.0.0.1:36000 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:46 haproxy[3977]: Connect from 127.0.0.1:36012 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:48 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:45:55 haproxy[3977]: Connect from 127.0.0.1:60766 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:45:58 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:46:00 haproxy[3977]: Connect from 127.0.0.1:60784 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:01 haproxy[3977]: Connect from 127.0.0.1:60796 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:05 haproxy[3977]: Connect from 127.0.0.1:59456 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:06 haproxy[6254]: Connect from 127.0.0.1:59466 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:09 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:46:10 haproxy[3977]: Connect from 127.0.0.1:59476 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:11 haproxy[6254]: Connect from 127.0.0.1:59478 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:15 haproxy[3977]: Connect from 127.0.0.1:41050 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:17 haproxy[3977]: Connect from 127.0.0.1:41060 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:20 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:46:22 haproxy[6254]: Connect from 127.0.0.1:41084 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:25 haproxy[3977]: Connect from 127.0.0.1:41184 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:27 haproxy[6254]: Connect from 127.0.0.1:41188 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:30 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:46:32 haproxy[3977]: Connect from 127.0.0.1:41212 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:36 haproxy[6254]: Connect from 127.0.0.1:38020 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:37 haproxy[3977]: Connect from 127.0.0.1:38024 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:41 haproxy[3977]: Connect from 127.0.0.1:38030 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:41 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:46:42 haproxy[3977]: Connect from 127.0.0.1:38042 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:47 haproxy[6254]: Connect from 127.0.0.1:58876 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:51 haproxy[3977]: Connect from 127.0.0.1:58884 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:46:52 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:46:52 haproxy[3977]: Connect from 127.0.0.1:58888 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:01 haproxy[3977]: Connect from 127.0.0.1:55270 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:03 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:47:06 haproxy[6254]: Connect from 127.0.0.1:54978 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:11 haproxy[3977]: Connect from 127.0.0.1:54998 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:12 haproxy[3977]: Connect from 127.0.0.1:55010 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 05:47:12 haproxy[3977]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 05:47:12 haproxy[3977]: backend flask_backends_lc has no server available!
+<129>May  4 05:47:12 haproxy[3977]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 05:47:12 haproxy[3977]: backend flask_backends_iphash has no server available!
+<129>May  4 05:47:12 haproxy[3977]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 05:47:12 haproxy[3977]: backend flask_backends_rr has no server available!
+<129>May  4 05:47:13 haproxy[6254]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 05:47:13 haproxy[6254]: backend flask_backends_rr has no server available!
+<129>May  4 05:47:13 haproxy[6254]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 05:47:13 haproxy[6254]: backend flask_backends_lc has no server available!
+<129>May  4 05:47:13 haproxy[6254]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 05:47:13 haproxy[6254]: backend flask_backends_iphash has no server available!
+<134>May  4 05:47:14 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:47:24 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:47:30 haproxy[3977]: Connect from 127.0.0.1:53220 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:31 haproxy[6254]: Connect from 127.0.0.1:53222 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:35 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:47:35 haproxy[6254]: Connect from 127.0.0.1:52786 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:36 haproxy[3977]: Connect from 127.0.0.1:52798 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:40 haproxy[3977]: Connect from 127.0.0.1:52802 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:41 haproxy[3977]: Connect from 127.0.0.1:52808 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:45 haproxy[3977]: Connect from 127.0.0.1:60128 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:46 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:47:50 haproxy[6254]: Connect from 127.0.0.1:60152 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:51 haproxy[6254]: Connect from 127.0.0.1:60160 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:47:56 haproxy[6254]: Connect from 127.0.0.1:44432 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:01 haproxy[6254]: Connect from 127.0.0.1:44434 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:04 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:48:07 haproxy[3977]: Connect from 127.0.0.1:35290 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:07 haproxy[6254]: Connect from 127.0.0.1:35296 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:12 haproxy[3977]: Connect from 127.0.0.1:35300 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:12 haproxy[6254]: Connect from 127.0.0.1:35308 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:15 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:48:17 haproxy[6254]: Connect from 127.0.0.1:38044 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:17 haproxy[3977]: Connect from 127.0.0.1:38048 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:25 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:48:27 haproxy[3977]: Connect from 127.0.0.1:58032 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:27 haproxy[3977]: Connect from 127.0.0.1:58038 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:32 haproxy[3977]: Connect from 127.0.0.1:58046 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:32 haproxy[6254]: Connect from 127.0.0.1:58056 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:36 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:48:37 haproxy[3977]: Connect from 127.0.0.1:54792 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:42 haproxy[3977]: Connect from 127.0.0.1:54796 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:47 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:48:47 haproxy[3977]: Connect from 127.0.0.1:55732 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:52 haproxy[3977]: Connect from 127.0.0.1:55740 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:52 haproxy[3977]: Connect from 127.0.0.1:55744 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:57 haproxy[3977]: Connect from 127.0.0.1:57500 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:48:58 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:49:07 haproxy[6254]: Connect from 127.0.0.1:43836 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:49:07 haproxy[6254]: Connect from 127.0.0.1:43848 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:49:08 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:49:12 haproxy[6254]: Connect from 127.0.0.1:43866 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:49:17 haproxy[6254]: Connect from 127.0.0.1:49194 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:49:18 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:49:29 haproxy[3977]: Connect from 127.0.0.1:58490 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 05:58:02 haproxy[6254]: Connect from 127.0.0.1:57662 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:58:14 haproxy[3977]: Connect from 127.0.0.1:60520 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:58:15 haproxy[3977]: Connect from 127.0.0.1:32892 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 05:58:16 haproxy[3977]: Connect from 127.0.0.1:32910 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:03:12 haproxy[3977]: Connect from 127.0.0.1:54838 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:03:12 haproxy[3977]: Connect from 127.0.0.1:54850 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 9 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 8 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 7 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 6 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 5 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app6 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app7 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app8 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:19 haproxy[12102]: Server flask_backends_rr/app9 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_rr/app10 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:05:20 haproxy[12102]: backend flask_backends_rr has no server available!
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 9 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 8 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 7 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 6 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 5 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app6 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app7 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app8 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app9 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_lc/app10 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:05:20 haproxy[12102]: backend flask_backends_lc has no server available!
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 9 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_iphash/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 8 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 7 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:20 haproxy[12102]: Server flask_backends_iphash/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 6 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:21 haproxy[12102]: Server flask_backends_iphash/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 5 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:21 haproxy[12102]: Server flask_backends_iphash/app6 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:21 haproxy[12102]: Server flask_backends_iphash/app7 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:21 haproxy[12102]: Server flask_backends_iphash/app8 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:21 haproxy[12102]: Server flask_backends_iphash/app9 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:05:21 haproxy[12102]: Server flask_backends_iphash/app10 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:05:21 haproxy[12102]: backend flask_backends_iphash has no server available!
+<134>May  4 06:06:18 haproxy[12102]: Connect from 127.0.0.1:43042 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:23 haproxy[3977]: Connect from 127.0.0.1:43048 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:23 haproxy[6254]: Connect from 127.0.0.1:43062 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:28 haproxy[12102]: Connect from 127.0.0.1:58388 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:28 haproxy[12102]: Connect from 127.0.0.1:58392 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:33 haproxy[6254]: Connect from 127.0.0.1:58404 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:33 haproxy[3977]: Connect from 127.0.0.1:58414 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:38 haproxy[12102]: Connect from 127.0.0.1:36224 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:43 haproxy[12102]: Connect from 127.0.0.1:36256 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:43 haproxy[3977]: Connect from 127.0.0.1:36260 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:48 haproxy[3977]: Connect from 127.0.0.1:51622 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:48 haproxy[6254]: Connect from 127.0.0.1:51632 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:53 haproxy[6254]: Connect from 127.0.0.1:51640 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:53 haproxy[6254]: Connect from 127.0.0.1:51652 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:06:58 haproxy[6254]: Connect from 127.0.0.1:39984 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:03 haproxy[6254]: Connect from 127.0.0.1:40008 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:03 haproxy[12102]: Connect from 127.0.0.1:40020 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:08 haproxy[12102]: Connect from 127.0.0.1:37138 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:14 haproxy[3977]: Connect from 127.0.0.1:37156 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:19 haproxy[6254]: Connect from 127.0.0.1:56382 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:23 haproxy[3977]: Connect from 127.0.0.1:56386 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:24 haproxy[6254]: Connect from 127.0.0.1:56392 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:28 haproxy[6254]: Connect from 127.0.0.1:55148 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:29 haproxy[12102]: Connect from 127.0.0.1:55158 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:33 haproxy[3977]: Connect from 127.0.0.1:55172 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:34 haproxy[6254]: Connect from 127.0.0.1:55186 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:39 haproxy[6254]: Connect from 127.0.0.1:60988 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:43 haproxy[6254]: Connect from 127.0.0.1:60996 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:44 haproxy[3977]: Connect from 127.0.0.1:32778 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:48 haproxy[3977]: Connect from 127.0.0.1:51932 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:53 haproxy[3977]: Connect from 127.0.0.1:51946 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:54 haproxy[12102]: Connect from 127.0.0.1:51958 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:58 haproxy[12102]: Connect from 127.0.0.1:42958 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:07:59 haproxy[6254]: Connect from 127.0.0.1:42970 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:03 haproxy[12102]: Connect from 127.0.0.1:42974 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:04 haproxy[3977]: Connect from 127.0.0.1:42988 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:08:05 haproxy[12102]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[6254]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[6254]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[6254]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[3977]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[3977]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[3977]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:05 haproxy[12102]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:08:06 haproxy[12102]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:08:08 haproxy[3977]: Connect from 127.0.0.1:46500 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:09 haproxy[3977]: Connect from 127.0.0.1:46514 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:13 haproxy[12102]: Connect from 127.0.0.1:46516 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:14 haproxy[3977]: Connect from 127.0.0.1:46532 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:18 haproxy[12102]: Connect from 127.0.0.1:46966 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:19 haproxy[3977]: Connect from 127.0.0.1:46974 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:23 haproxy[12102]: Connect from 127.0.0.1:46980 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:24 haproxy[3977]: Connect from 127.0.0.1:46984 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:28 haproxy[12102]: Connect from 127.0.0.1:44082 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:29 haproxy[3977]: Connect from 127.0.0.1:44094 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:33 haproxy[6254]: Connect from 127.0.0.1:44106 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:34 haproxy[3977]: Connect from 127.0.0.1:44108 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:39 haproxy[6254]: Connect from 127.0.0.1:51100 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:43 haproxy[12102]: Connect from 127.0.0.1:51114 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:44 haproxy[6254]: Connect from 127.0.0.1:51116 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:48 haproxy[3977]: Connect from 127.0.0.1:59928 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:49 haproxy[12102]: Connect from 127.0.0.1:59936 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:54 haproxy[3977]: Connect from 127.0.0.1:59944 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:54 haproxy[3977]: Connect from 127.0.0.1:59950 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:59 haproxy[6254]: Connect from 127.0.0.1:36026 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:08:59 haproxy[6254]: Connect from 127.0.0.1:36038 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:04 haproxy[12102]: Connect from 127.0.0.1:36052 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:04 haproxy[6254]: Connect from 127.0.0.1:36068 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:09 haproxy[12102]: Connect from 127.0.0.1:38100 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:09 haproxy[3977]: Connect from 127.0.0.1:38110 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:14 haproxy[6254]: Connect from 127.0.0.1:38126 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:17 haproxy[6254]: Connect from 127.0.0.1:38894 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:18 haproxy[12102]: Connect from 127.0.0.1:38898 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:19 haproxy[6254]: Connect from 127.0.0.1:38904 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:19 haproxy[6254]: Connect from 127.0.0.1:38906 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:24 haproxy[12102]: Connect from 127.0.0.1:38910 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:24 haproxy[12102]: Connect from 127.0.0.1:38916 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:29 haproxy[3977]: Connect from 127.0.0.1:44490 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:29 haproxy[6254]: Connect from 127.0.0.1:44502 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:34 haproxy[6254]: Connect from 127.0.0.1:44520 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:39 haproxy[3977]: Connect from 127.0.0.1:53340 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:44 haproxy[12102]: Connect from 127.0.0.1:53346 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:49 haproxy[12102]: Connect from 127.0.0.1:49068 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:49 haproxy[6254]: Connect from 127.0.0.1:49076 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:54 haproxy[3977]: Connect from 127.0.0.1:49088 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:09:59 haproxy[6254]: Connect from 127.0.0.1:53476 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:04 haproxy[3977]: Connect from 127.0.0.1:53502 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:10:04 haproxy[12102]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:04 haproxy[12102]: backend flask_backends_lc has no server available!
+<134>May  4 06:10:04 haproxy[12102]: Connect from 127.0.0.1:53512 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:10:05 haproxy[12102]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:05 haproxy[12102]: backend flask_backends_iphash has no server available!
+<129>May  4 06:10:05 haproxy[6254]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:10:05 haproxy[3977]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:05 haproxy[3977]: backend flask_backends_lc has no server available!
+<129>May  4 06:10:05 haproxy[3977]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:05 haproxy[3977]: backend flask_backends_iphash has no server available!
+<129>May  4 06:10:05 haproxy[3977]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:05 haproxy[3977]: backend flask_backends_rr has no server available!
+<128>May  4 06:10:05 haproxy[6254]: backend flask_backends_rr has no server available!
+<129>May  4 06:10:05 haproxy[6254]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:05 haproxy[6254]: backend flask_backends_lc has no server available!
+<129>May  4 06:10:05 haproxy[6254]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:05 haproxy[6254]: backend flask_backends_iphash has no server available!
+<129>May  4 06:10:06 haproxy[12102]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:10:06 haproxy[12102]: backend flask_backends_rr has no server available!
+<134>May  4 06:10:11 haproxy[6254]: Connect from 127.0.0.1:38288 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:11 haproxy[12102]: Connect from 127.0.0.1:38300 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:16 haproxy[6254]: Connect from 127.0.0.1:47708 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:16 haproxy[3977]: Connect from 127.0.0.1:47724 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:22 haproxy[12102]: Connect from 127.0.0.1:47748 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:26 haproxy[12102]: Connect from 127.0.0.1:46110 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:31 haproxy[12102]: Connect from 127.0.0.1:46136 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:32 haproxy[3977]: Connect from 127.0.0.1:46152 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:10:36 haproxy[12102]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:10:36 haproxy[3977]: Connect from 127.0.0.1:49442 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:10:36 haproxy[12102]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[12102]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 0ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[3977]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[3977]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[3977]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[6254]: Server flask_backends_rr/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[6254]: Server flask_backends_lc/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:37 haproxy[6254]: Server flask_backends_iphash/app1 is UP, reason: Layer4 check passed, check duration: 1ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:41 haproxy[12102]: Server flask_backends_iphash/app2 is UP, reason: Layer4 check passed, check duration: 0ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:10:41 haproxy[3977]: Connect from 127.0.0.1:49454 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:10:41 haproxy[3977]: Server flask_backends_rr/app2 is UP, reason: Layer4 check passed, check duration: 1ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:41 haproxy[3977]: Server flask_backends_lc/app2 is UP, reason: Layer4 check passed, check duration: 1ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:41 haproxy[3977]: Server flask_backends_iphash/app2 is UP, reason: Layer4 check passed, check duration: 1ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:41 haproxy[6254]: Server flask_backends_rr/app2 is UP, reason: Layer4 check passed, check duration: 1ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:41 haproxy[6254]: Server flask_backends_lc/app2 is UP, reason: Layer4 check passed, check duration: 1ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:41 haproxy[6254]: Server flask_backends_iphash/app2 is UP, reason: Layer4 check passed, check duration: 1ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:10:42 haproxy[12102]: Connect from 127.0.0.1:49466 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:10:42 haproxy[12102]: Server flask_backends_rr/app2 is UP, reason: Layer4 check passed, check duration: 0ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:42 haproxy[12102]: Server flask_backends_lc/app2 is UP, reason: Layer4 check passed, check duration: 0ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:44 haproxy[12102]: Server flask_backends_lc/app3 is UP, reason: Layer4 check passed, check duration: 0ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[12102]: Server flask_backends_iphash/app3 is UP, reason: Layer4 check passed, check duration: 1ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[3977]: Server flask_backends_rr/app3 is UP, reason: Layer4 check passed, check duration: 5ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[3977]: Server flask_backends_lc/app3 is UP, reason: Layer4 check passed, check duration: 5ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[3977]: Server flask_backends_iphash/app3 is UP, reason: Layer4 check passed, check duration: 5ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[6254]: Server flask_backends_rr/app3 is UP, reason: Layer4 check passed, check duration: 3ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[6254]: Server flask_backends_lc/app3 is UP, reason: Layer4 check passed, check duration: 3ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:45 haproxy[6254]: Server flask_backends_iphash/app3 is UP, reason: Layer4 check passed, check duration: 3ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:46 haproxy[12102]: Server flask_backends_rr/app3 is UP, reason: Layer4 check passed, check duration: 0ms. 3 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:10:46 haproxy[12102]: Connect from 127.0.0.1:33556 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:47 haproxy[6254]: Connect from 127.0.0.1:33560 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:51 haproxy[3977]: Connect from 127.0.0.1:33570 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:52 haproxy[3977]: Connect from 127.0.0.1:33586 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:10:57 haproxy[6254]: Connect from 127.0.0.1:43788 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:10:58 haproxy[12102]: Server flask_backends_lc/app4 is UP, reason: Layer4 check passed, check duration: 0ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[12102]: Server flask_backends_iphash/app4 is UP, reason: Layer4 check passed, check duration: 0ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[3977]: Server flask_backends_rr/app4 is UP, reason: Layer4 check passed, check duration: 1ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[3977]: Server flask_backends_lc/app4 is UP, reason: Layer4 check passed, check duration: 1ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[3977]: Server flask_backends_iphash/app4 is UP, reason: Layer4 check passed, check duration: 1ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[6254]: Server flask_backends_lc/app4 is UP, reason: Layer4 check passed, check duration: 10ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[6254]: Server flask_backends_rr/app4 is UP, reason: Layer4 check passed, check duration: 10ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:10:59 haproxy[6254]: Server flask_backends_iphash/app4 is UP, reason: Layer4 check passed, check duration: 10ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:11:00 haproxy[12102]: Server flask_backends_rr/app4 is UP, reason: Layer4 check passed, check duration: 0ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:11:01 haproxy[12102]: Connect from 127.0.0.1:43798 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:02 haproxy[6254]: Connect from 127.0.0.1:43800 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:06 haproxy[12102]: Connect from 127.0.0.1:52144 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:07 haproxy[3977]: Connect from 127.0.0.1:52150 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:12 haproxy[12102]: Connect from 127.0.0.1:52176 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:21 haproxy[3977]: Connect from 127.0.0.1:35396 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:26 haproxy[6254]: Connect from 127.0.0.1:46862 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:27 haproxy[12102]: Connect from 127.0.0.1:46868 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:32 haproxy[3977]: Connect from 127.0.0.1:46882 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:37 haproxy[3977]: Connect from 127.0.0.1:44348 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:37 haproxy[6254]: Connect from 127.0.0.1:44360 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:42 haproxy[3977]: Connect from 127.0.0.1:44364 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:42 haproxy[12102]: Connect from 127.0.0.1:44378 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:47 haproxy[6254]: Connect from 127.0.0.1:55782 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:47 haproxy[6254]: Connect from 127.0.0.1:55784 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:52 haproxy[3977]: Connect from 127.0.0.1:55792 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:52 haproxy[3977]: Connect from 127.0.0.1:55806 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:57 haproxy[6254]: Connect from 127.0.0.1:56466 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:11:57 haproxy[6254]: Connect from 127.0.0.1:56474 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:02 haproxy[12102]: Connect from 127.0.0.1:56488 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:07 haproxy[3977]: Connect from 127.0.0.1:49164 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:07 haproxy[6254]: Connect from 127.0.0.1:49172 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:12 haproxy[3977]: Connect from 127.0.0.1:49190 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:17 haproxy[6254]: Connect from 127.0.0.1:56044 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:22 haproxy[6254]: Connect from 127.0.0.1:56058 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:32 haproxy[3977]: Connect from 127.0.0.1:51280 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:32 haproxy[12102]: Connect from 127.0.0.1:51284 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:37 haproxy[6254]: Connect from 127.0.0.1:45736 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:38 haproxy[6254]: Connect from 127.0.0.1:45744 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:42 haproxy[6254]: Connect from 127.0.0.1:45760 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:43 haproxy[6254]: Connect from 127.0.0.1:45764 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:47 haproxy[3977]: Connect from 127.0.0.1:50752 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:48 haproxy[6254]: Connect from 127.0.0.1:50768 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:52 haproxy[6254]: Connect from 127.0.0.1:50784 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:53 haproxy[3977]: Connect from 127.0.0.1:50792 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:57 haproxy[6254]: Connect from 127.0.0.1:58218 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:12:58 haproxy[12102]: Connect from 127.0.0.1:58220 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:03 haproxy[12102]: Connect from 127.0.0.1:58236 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:07 haproxy[6254]: Connect from 127.0.0.1:42544 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:08 haproxy[3977]: Connect from 127.0.0.1:42554 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:13 haproxy[6254]: Connect from 127.0.0.1:42560 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:13 haproxy[3977]: Connect from 127.0.0.1:42562 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:18 haproxy[12102]: Connect from 127.0.0.1:43850 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:18 haproxy[3977]: Connect from 127.0.0.1:43852 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:23 haproxy[12102]: Connect from 127.0.0.1:43866 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:28 haproxy[3977]: Connect from 127.0.0.1:46302 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:28 haproxy[12102]: Connect from 127.0.0.1:46310 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:38 haproxy[12102]: Connect from 127.0.0.1:56514 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:39 haproxy[12102]: Connect from 127.0.0.1:56528 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:46 haproxy[6254]: Connect from 127.0.0.1:54008 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:49 haproxy[6254]: Connect from 127.0.0.1:54020 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:56 haproxy[6254]: Connect from 127.0.0.1:44840 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:13:59 haproxy[6254]: Connect from 127.0.0.1:44850 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:01 haproxy[6254]: Connect from 127.0.0.1:44866 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:04 haproxy[3977]: Connect from 127.0.0.1:44872 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:06 haproxy[12102]: Connect from 127.0.0.1:34622 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:09 haproxy[12102]: Connect from 127.0.0.1:34630 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:11 haproxy[12102]: Connect from 127.0.0.1:34632 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:14 haproxy[12102]: Connect from 127.0.0.1:34644 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:16 haproxy[12102]: Connect from 127.0.0.1:60628 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:19 haproxy[6254]: Connect from 127.0.0.1:60632 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:26 haproxy[6254]: Connect from 127.0.0.1:53984 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:29 haproxy[6254]: Connect from 127.0.0.1:53988 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:31 haproxy[12102]: Connect from 127.0.0.1:53990 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:34 haproxy[6254]: Connect from 127.0.0.1:53996 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:37 haproxy[6254]: Connect from 127.0.0.1:47404 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:39 haproxy[3977]: Connect from 127.0.0.1:47408 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:42 haproxy[12102]: Connect from 127.0.0.1:47416 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:44 haproxy[12102]: Connect from 127.0.0.1:47420 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:47 haproxy[12102]: Connect from 127.0.0.1:43466 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:49 haproxy[12102]: Connect from 127.0.0.1:43474 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:14:51 haproxy[12102]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:51 haproxy[12102]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:51 haproxy[6254]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 4ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:51 haproxy[6254]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 4ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:51 haproxy[6254]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 4ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:52 haproxy[12102]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:52 haproxy[3977]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:52 haproxy[3977]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:14:52 haproxy[3977]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<134>May  4 06:14:52 haproxy[6254]: Connect from 127.0.0.1:43484 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:54 haproxy[3977]: Connect from 127.0.0.1:43490 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:57 haproxy[3977]: Connect from 127.0.0.1:52778 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:14:59 haproxy[12102]: Connect from 127.0.0.1:52786 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:02 haproxy[12102]: Connect from 127.0.0.1:52800 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:04 haproxy[12102]: Connect from 127.0.0.1:52806 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:15:06 haproxy[3977]: Server flask_backends_rr/app5 is UP, reason: Layer4 check passed, check duration: 1ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:06 haproxy[3977]: Server flask_backends_lc/app5 is UP, reason: Layer4 check passed, check duration: 1ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:06 haproxy[3977]: Server flask_backends_iphash/app5 is UP, reason: Layer4 check passed, check duration: 1ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:06 haproxy[12102]: Server flask_backends_rr/app5 is UP, reason: Layer4 check passed, check duration: 0ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:07 haproxy[12102]: Server flask_backends_lc/app5 is UP, reason: Layer4 check passed, check duration: 0ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:15:07 haproxy[3977]: Connect from 127.0.0.1:49332 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:15:07 haproxy[6254]: Server flask_backends_lc/app5 is UP, reason: Layer4 check passed, check duration: 3ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:07 haproxy[6254]: Server flask_backends_rr/app5 is UP, reason: Layer4 check passed, check duration: 3ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:07 haproxy[6254]: Server flask_backends_iphash/app5 is UP, reason: Layer4 check passed, check duration: 3ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:15:07 haproxy[12102]: Server flask_backends_iphash/app5 is UP, reason: Layer4 check passed, check duration: 0ms. 4 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:15:09 haproxy[6254]: Connect from 127.0.0.1:49340 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:12 haproxy[3977]: Connect from 127.0.0.1:49342 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:17 haproxy[6254]: Connect from 127.0.0.1:59378 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:19 haproxy[6254]: Connect from 127.0.0.1:59380 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:22 haproxy[12102]: Connect from 127.0.0.1:59392 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:27 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:15:27 haproxy[12102]: Connect from 127.0.0.1:53884 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:34 haproxy[6254]: Connect from 127.0.0.1:53916 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:37 haproxy[6254]: Connect from 127.0.0.1:35166 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:38 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:15:44 haproxy[6254]: Connect from 127.0.0.1:35192 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:47 haproxy[6254]: Connect from 127.0.0.1:58024 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:48 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:15:49 haproxy[3977]: Connect from 127.0.0.1:58026 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:52 haproxy[3977]: Connect from 127.0.0.1:58030 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:54 haproxy[6254]: Connect from 127.0.0.1:58038 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:57 haproxy[12102]: Connect from 127.0.0.1:54750 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:15:59 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:16:04 haproxy[12102]: Connect from 127.0.0.1:54782 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:07 haproxy[6254]: Connect from 127.0.0.1:55148 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:10 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:16:14 haproxy[6254]: Connect from 127.0.0.1:55186 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:17 haproxy[6254]: Connect from 127.0.0.1:46074 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:19 haproxy[3977]: Connect from 127.0.0.1:46088 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:20 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:16:23 haproxy[3977]: Connect from 127.0.0.1:46096 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:24 haproxy[12102]: Connect from 127.0.0.1:46110 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:28 haproxy[12102]: Connect from 127.0.0.1:53450 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:30 haproxy[3977]: Connect from 127.0.0.1:53452 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:30 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:16:33 haproxy[6254]: Connect from 127.0.0.1:53454 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:38 haproxy[3977]: Connect from 127.0.0.1:55916 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:40 haproxy[3977]: Connect from 127.0.0.1:55932 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:41 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:16:43 haproxy[3977]: Connect from 127.0.0.1:55942 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:45 haproxy[3977]: Connect from 127.0.0.1:55950 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:48 haproxy[6254]: Connect from 127.0.0.1:48346 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:51 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:16:53 haproxy[12102]: Connect from 127.0.0.1:48358 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:16:58 haproxy[12102]: Connect from 127.0.0.1:55106 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:00 haproxy[6254]: Connect from 127.0.0.1:55116 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:02 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:17:05 haproxy[12102]: Connect from 127.0.0.1:55128 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:17:06 haproxy[3977]: Server flask_backends_rr/app3 is UP, reason: Layer4 check passed, check duration: 1ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:06 haproxy[3977]: Server flask_backends_lc/app3 is UP, reason: Layer4 check passed, check duration: 1ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:06 haproxy[3977]: Server flask_backends_iphash/app3 is UP, reason: Layer4 check passed, check duration: 1ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:07 haproxy[12102]: Server flask_backends_lc/app3 is UP, reason: Layer4 check passed, check duration: 0ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:07 haproxy[12102]: Server flask_backends_iphash/app3 is UP, reason: Layer4 check passed, check duration: 0ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:07 haproxy[6254]: Server flask_backends_rr/app3 is UP, reason: Layer4 check passed, check duration: 4ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:07 haproxy[6254]: Server flask_backends_lc/app3 is UP, reason: Layer4 check passed, check duration: 4ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<133>May  4 06:17:07 haproxy[6254]: Server flask_backends_iphash/app3 is UP, reason: Layer4 check passed, check duration: 4ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:17:08 haproxy[3977]: Connect from 127.0.0.1:47518 to 127.0.0.1:80 (http_front/HTTP)
+<133>May  4 06:17:08 haproxy[12102]: Server flask_backends_rr/app3 is UP, reason: Layer4 check passed, check duration: 0ms. 5 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+<134>May  4 06:17:10 haproxy[3977]: Connect from 127.0.0.1:47522 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:12 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:17:13 haproxy[3977]: Connect from 127.0.0.1:47528 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:15 haproxy[12102]: Connect from 127.0.0.1:47544 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:20 haproxy[12102]: Connect from 127.0.0.1:59640 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:23 haproxy[6254]: Connect from 127.0.0.1:59650 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:23 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:17:25 haproxy[6254]: Connect from 127.0.0.1:48114 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:17:26 haproxy[3977]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 2ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:26 haproxy[3977]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 2ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:26 haproxy[3977]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 2ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:27 haproxy[12102]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:27 haproxy[12102]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:27 haproxy[6254]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:27 haproxy[6254]: Server flask_backends_lc/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:27 haproxy[6254]: Server flask_backends_iphash/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:28 haproxy[12102]: Server flask_backends_rr/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 4 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<134>May  4 06:17:30 haproxy[6254]: Connect from 127.0.0.1:48130 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:30 haproxy[12102]: Connect from 127.0.0.1:48132 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:17:32 haproxy[12102]: Server flask_backends_rr/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:32 haproxy[3977]: Server flask_backends_rr/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:32 haproxy[3977]: Server flask_backends_lc/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:32 haproxy[3977]: Server flask_backends_iphash/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:33 haproxy[12102]: Server flask_backends_lc/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:33 haproxy[12102]: Server flask_backends_iphash/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:33 haproxy[6254]: Server flask_backends_rr/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:33 haproxy[6254]: Server flask_backends_lc/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:33 haproxy[6254]: Server flask_backends_iphash/app2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<134>May  4 06:17:34 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<129>May  4 06:17:34 haproxy[12102]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:34 haproxy[3977]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 9ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:34 haproxy[3977]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 9ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:34 haproxy[3977]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 9ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[12102]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[12102]: Server flask_backends_lc/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[12102]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[12102]: Server flask_backends_iphash/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[6254]: Server flask_backends_lc/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[6254]: Server flask_backends_rr/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[6254]: Server flask_backends_rr/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[6254]: Server flask_backends_lc/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[6254]: Server flask_backends_iphash/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:35 haproxy[6254]: Server flask_backends_iphash/app3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 3ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:36 haproxy[12102]: Server flask_backends_rr/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:36 haproxy[3977]: Server flask_backends_rr/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:36 haproxy[3977]: Server flask_backends_rr/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:36 haproxy[3977]: backend flask_backends_rr has no server available!
+<129>May  4 06:17:36 haproxy[3977]: Server flask_backends_lc/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:36 haproxy[3977]: Server flask_backends_lc/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:36 haproxy[3977]: backend flask_backends_lc has no server available!
+<129>May  4 06:17:36 haproxy[3977]: Server flask_backends_iphash/app4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<129>May  4 06:17:36 haproxy[3977]: Server flask_backends_iphash/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:36 haproxy[3977]: backend flask_backends_iphash has no server available!
+<129>May  4 06:17:36 haproxy[12102]: Server flask_backends_rr/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:36 haproxy[12102]: backend flask_backends_rr has no server available!
+<134>May  4 06:17:37 haproxy[6254]: Connect from 127.0.0.1:32770 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:17:37 haproxy[12102]: Server flask_backends_lc/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:37 haproxy[12102]: backend flask_backends_lc has no server available!
+<134>May  4 06:17:37 haproxy[3977]: Connect from 127.0.0.1:32784 to 127.0.0.1:80 (http_front/HTTP)
+<129>May  4 06:17:37 haproxy[12102]: Server flask_backends_iphash/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:37 haproxy[12102]: backend flask_backends_iphash has no server available!
+<129>May  4 06:17:37 haproxy[6254]: Server flask_backends_lc/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:37 haproxy[6254]: backend flask_backends_lc has no server available!
+<129>May  4 06:17:37 haproxy[6254]: Server flask_backends_rr/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:37 haproxy[6254]: backend flask_backends_rr has no server available!
+<129>May  4 06:17:37 haproxy[6254]: Server flask_backends_iphash/app5 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+<128>May  4 06:17:37 haproxy[6254]: backend flask_backends_iphash has no server available!
+<134>May  4 06:17:42 haproxy[3977]: Connect from 127.0.0.1:32786 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:44 haproxy[12102]: Connect from 127.0.0.1:32790 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:44 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:17:47 haproxy[3977]: Connect from 127.0.0.1:33592 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:49 haproxy[12102]: Connect from 127.0.0.1:33604 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:52 haproxy[3977]: Connect from 127.0.0.1:33608 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:54 haproxy[3977]: Connect from 127.0.0.1:33612 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:55 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:17:57 haproxy[12102]: Connect from 127.0.0.1:56638 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:17:59 haproxy[6254]: Connect from 127.0.0.1:56642 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:18:02 haproxy[3977]: Connect from 127.0.0.1:56652 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:18:04 haproxy[12102]: Connect from 127.0.0.1:56654 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:18:05 haproxy[3977]: Connect from 127.0.0.1:51182 to 127.0.0.1:8404 (stats/HTTP)
+<134>May  4 06:18:07 haproxy[6254]: Connect from 127.0.0.1:40560 to 127.0.0.1:80 (http_front/HTTP)
+<134>May  4 06:18:12 haproxy[6254]: Connect from 127.0.0.1:40568 to 127.0.0.1:80 (http_front/HTTP)
